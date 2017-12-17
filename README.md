@@ -1,5 +1,5 @@
 # hodlminer binaries
-hodlminer binaries for Windows x64
+hodlminer binaries for Windows x64. Non AES-NI version is compiled by NiceHash. AVX version is equivalento to Madzebra2016 miner.
 
 ## hodlminer-avx2.exe
 requires AES-NI and AVX2 support
