@@ -1,4 +1,4 @@
-# hodlminer-binary
+# hodlminer binaries
 hodlminer binaries for Windows x64
 
 ## hodlminer-avx2.exe
