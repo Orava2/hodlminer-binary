@@ -13,6 +13,12 @@ requires AES-NI and SSE2 support (westmere architecture)
 ## hodlminer-core2-non_aes.exe (by NiceHash)
 does not require AES-NI support
 
+# Hodlminer 2018 v3
+- NEW: Show block number, difficulty and stratum difficulty
+       [2018-08-04 13:37:54] NEW BLOCK 488117, difficulty 0.004085, stratum difficulty 8.00
+- NEW: New affinity parameter. --affinity=1 binds thread0 to cpu0, thread1 to cpu1 etc.
+       --affinity=2 binds thread0 to cpu0, thread1 to cpu2, thread2 to cpu4, thread3 to cpu6 etc.
+       This can be used to bind threads to only physical cores.
 
 # Hodlminer 2018 v2
 - NEW: Show colored text. Works in Windows 10.
